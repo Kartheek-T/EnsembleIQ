@@ -1,23 +1,21 @@
-# Python environment
+# Ignore everything by default
+*
+
+# Allow main application
+!app.py
+
+# Allow requirements
+!requirements.txt
+
+# Allow README
+!README.md
+
+# Allow models folder and trained models
+!models/
+models/*
+!models/*.pkl
+
+# Ignore unnecessary files
 venv/
-.venv/
 __pycache__/
 *.pyc
-
-# Streamlit secrets
-.streamlit/secrets.toml
-
-# CatBoost generated files
-catboost_info/
-
-# Temporary files
-*.log
-.DS_Store
-
-# Backup applications
-app_backup.py
-app_claude.py
-data/creditcard.csv
-*
-!.gitignore
-!app.py
