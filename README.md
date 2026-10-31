@@ -1,4 +1,4 @@
-\# EnsembleIQ – Credit Card Fraud Detection
+\# **EnsembleIQ – Credit Card Fraud Detection**
 
 
 
